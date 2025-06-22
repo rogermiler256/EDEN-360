@@ -85,7 +85,7 @@
 
     <!-- Escena A-Frame -->
     <a-scene cursor="rayOrigin: mouse" raycaster="objects: .clickable">
-      <a-sky id="sky" src="M2.jpg" rotation="0 -130 0"></a-sky>
+      <a-sky id="sky" src="M1.jpg" rotation="0 -130 0"></a-sky>
       <a-sky id="sky-fade" visible="false" opacity="0" rotation="0 -130 0"></a-sky>
       <a-entity id="cam" camera look-controls wasd-controls position="0 1.6 0"></a-entity>
     </a-scene>
@@ -94,16 +94,16 @@
     <script>
       const hotspots = {
         "M1.png": [
-          { img: "M2.jpg", position: "3 0.01 -3", label: "Sala" },
-          { img: "M3.jpg", position: "-3 0.01 -3", label: "Zona BBQ" }
+          { img: "M2.jpg", position: "3 0.01 -3", label: "Lotes" },
+          { img: "M3.jpg", position: "-3 0.01 -3", label: "Predio el edén" }
         ],
         "M2.png": [
-          { img: "M1.jpg", position: "-3 0.01 -3", label: "cocina" },
-          { img: "M3.jpg", position: "3 0.01 -3", label: "Sala" }
+          { img: "M1.jpg", position: "-3 0.01 -3", label: "Lotes" },
+          { img: "M3.jpg", position: "3 0.01 -3", label: "Eden campestre" }
         ],
         "M3.png": [
           { img: "M1.jpg", position: "-3 0.01 -3", label: "Volver" },
-          { img: "M2.jpg", position: "3 0.01 -3", label: "Sala" }
+          { img: "M2.jpg", position: "3 0.01 -3", label: "el Eden" }
         ]
       };
 
